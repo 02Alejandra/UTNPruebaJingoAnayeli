@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UTNPruebaJingoAnayeli.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <!-- Game -->
+            <Label>     GAMES     </Label>
+            <Label>Id</Label>
+            <Entry x:Name="txtGameId" />
+            <Label>Name:</Label>
+            <Entry x:Name="txtGameName" />
+            <Label>RealeaseDate:</Label>
+            <Entry x:Name="txtGameReleaseDate" />
+            <Label>LauncherId:</Label>
+            <Entry x:Name="txtGameLauncherId" />
+            <Button x:Name="cmdCreateGame" Text="Insertar" Clicked="cmdCreateGame_Clicked" />
+            <Button x:Name="cmdReadGame" Text="Leer" Clicked="cmdReadGame_Clicked" />
+            <Button x:Name="cmdUpdateGame" Text="Actualizar" Clicked="cmdUpdateGame_Clicked" />
+            <Button x:Name="cmdDeleteGame" Text="Borrar" Clicked="cmdDeleteGame_Clicked" />
+
+            <!-- Launcher -->
+            <Label>     LAUNCHERS     </Label>
+            <Label>Id:</Label>
+            <Entry x:Name="txtLauncherId" />
+            <Label>Name:</Label>
+            <Entry x:Name="txtLauncherName" />
+            <Button x:Name="cmdCreateLauncher" Text="Insertar" Clicked="cmdCreateLauncher_Clicked" />
+            <Button x:Name="cmdReadLauncher" Text="Leer" Clicked="cmdReadLauncher_Clicked" />
+            <Button x:Name="cmdUpdateLauncher" Text="Actualizar" Clicked="cmdUpdateLauncher_Clicked" />
+            <Button x:Name="cmdDeleteLauncher" Text="Borrar" Clicked="cmdDeleteLauncher_Clicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
